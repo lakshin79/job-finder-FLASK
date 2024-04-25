@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+{% block content %}
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About Us - Job Finder</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: #f4f4f4;
+           color: #333;
+       }
+
+       .container {
+           max-width: 800px;
+           margin: 50px auto;
+           padding: 20px;
+           background-color: #fff;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+
+       h1, h2 {
+           color: #007BFF;
+       }
+
+       ul {
+           list-style-type: none;
+           padding-left: 0;
+       }
+
+       ul li {
+           margin-bottom: 10px;
+       }
+
+       a {
+           color: #007BFF;
+           text-decoration: none;
+       }
+
+       a:hover {
+           text-decoration: underline;
+       }
+
+       .contact-info {
+           margin-top: 20px;
+       }
+   </style>
+</head>
+
+<body>
+
+   <div class="container">
+       <h1>About Us</h1>
+
+       <p>Welcome to Job Finder, your trusted partner in navigating the world of employment opportunities. Founded in [Year], we are dedicated to revolutionizing the job search experience for both employers and job seekers alike.</p>
+
+       <h2>Our Mission</h2>
+
+       <p>Our mission is simple yet profound: to connect talent with opportunity. We understand the challenges and complexities of the job market, and we strive to make the process of finding the perfect job or candidate as seamless as possible.</p>
+
+       <h2>Why Choose Job Finder?</h2>
+
+       <ul>
+           <li><strong>User-Friendly Platform:</strong> Our intuitive platform is designed with you in mind, making it easy to search for jobs, upload resumes, and connect with potential employers.</li>
+           <li><strong>Comprehensive Job Listings:</strong> With thousands of job listings from top companies across various industries, you're sure to find the right fit for your skills and expertise.</li>
+           <li><strong>Personalized Job Matches:</strong> Our advanced matching algorithm analyzes your profile and preferences to deliver personalized job recommendations tailored to your needs.</li>
+           <li><strong>Expert Career Resources:</strong> From resume writing tips to interview preparation guides, our extensive library of resources is here to support you at every step of your job search journey.</li>
+           <li><strong>Dedicated Support Team:</strong> Our friendly and knowledgeable support team is always on hand to assist you with any questions or concerns you may have.</li>
+       </ul>
+
+       <div class="contact-info">
+           <h2>Contact Us</h2>
+           <p>We'd love to hear from you! If you have any questions, feedback, or suggestions, please don't hesitate to <a href="mailto:info@jobfinder.com">contact us</a> or call us at <a href="tel:+1234567890">+1 (234) 567-890</a>.</p>
+       </div>
+
+   </div>
+
+</body>
+{% endblock content %}
